@@ -1,0 +1,2 @@
+#!/bin/Bash
+rmdir -r /my_first_directory
