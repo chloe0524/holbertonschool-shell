@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '3p' iacta
+head -n 3 iacta
