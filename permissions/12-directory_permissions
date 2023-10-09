@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir 711 my_dir .
+mkdir my_dir chmod 711 .
