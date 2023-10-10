@@ -1,2 +1,2 @@
 #!/bin/bash
-env $VAR | declare -F
+set
