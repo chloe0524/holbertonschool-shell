@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=water;obase=bestchol;${WATER}+${STIR}" | bc -l | xargs printf "%d\n"
+echo $((5#$(tr water 01234 <<< $WATER) + 5#$(tr stir. 01234 <<< $STIR))) | tr 01234567 bestchol
