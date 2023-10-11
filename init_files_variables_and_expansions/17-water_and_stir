@@ -1,2 +1,2 @@
 #!/bin/bash
-sum=$($WATER+$STIR)
+echo "ibase=water;obase=bestchol;${WATER}+${STIR}" | bc -l | xargs printf "%d\n"
